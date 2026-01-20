@@ -1,0 +1,105 @@
+.container {
+  padding: 2rem;
+  font-family: 'times new roman';
+  background: #f9f9f9;
+  color: #333;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.ctaButton {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.features,
+.aboutSection,
+.howItWorks,
+.testimonials,
+.faq {
+  margin-top: 4rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.features ul,
+.faq ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.features h2,
+.aboutSection h2,
+.howItWorks h2,
+.testimonials h2,
+.faq h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.testimonialCards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.testimonialCard {
+  background: #f1f8e9;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+}
+
+.footer a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: underline;
+}
+.btn-group {
+   display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
