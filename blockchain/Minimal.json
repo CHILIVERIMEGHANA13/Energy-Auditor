@@ -1,0 +1,124 @@
+{
+  "contractName": "Minimal",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Minimal.sol\":\"Minimal\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Minimal.sol\":{\"keccak256\":\"0x223fe389396902b83c8f95babf05e53693ebc644d5e7fa257c177370dc5f4260\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://33d4aca8c210f500492750018910b2a8750dff736c19f91b8c7fe33510cda22c\",\"dweb:/ipfs/QmXGUmGBs6vFtX5AjBUTM36Gp1HVuPwFcWdmpiichdbwV6\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122012699a49819df528ff2ca0aeb8c4d43e05fc6ea80f6a5f790bbf37d16b21869664736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122012699a49819df528ff2ca0aeb8c4d43e05fc6ea80f6a5f790bbf37d16b21869664736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "60:43:1:-:0;;;84:16;;;;;;;;;;60:43;;;;;;",
+  "deployedSourceMap": "60:43:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract Minimal {\r\n    constructor() {}\r\n} ",
+  "sourcePath": "E:\\energy auditor\\energy-blockchain\\contracts\\Minimal.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Minimal.sol",
+    "exportedSymbols": {
+      "Minimal": [
+        132
+      ]
+    },
+    "id": 133,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 127,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 132,
+        "linearizedBaseContracts": [
+          132
+        ],
+        "name": "Minimal",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 130,
+              "nodeType": "Block",
+              "src": "98:2:1",
+              "statements": []
+            },
+            "id": 131,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 128,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:2:1"
+            },
+            "returnParameters": {
+              "id": 129,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "98:0:1"
+            },
+            "scope": 132,
+            "src": "84:16:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 133,
+        "src": "60:43:1"
+      }
+    ],
+    "src": "33:71:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {
+    "1337": {
+      "events": {},
+      "links": {},
+      "address": "0x16D70A6176C2E192a31ACaCA7C7CEcEF24f5eA0B",
+      "transactionHash": "0xe66d20f4fd0844a3c8feb26b7811905d4e1da463034793a5d1051e0bef586818"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xCeDD15C929b05e6b20A8C786fc0FE1168BcF00FC",
+      "transactionHash": "0xd1f61b1d4e96ef217d78bbb2ade2f4fa0a52308960e19e38a83ce8d68046cb2e"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2025-10-11T13:58:52.771Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
